@@ -32,6 +32,42 @@ export default withMermaid(
       ],
       ["link", { rel: "icon", href: "/images/clock.svg" }],
     ],
+    locales: {
+      root: { label: "中文", lang: "zh-CN" },
+      ru: {
+        label: "Русский",
+        lang: "ru-RU",
+        title: "1000 часов",
+        description:
+          "Заполните своим вниманием 1000 часов — и овладеете любым нужным вам умением…",
+        themeConfig: {
+          nav: [
+            { text: "Главная", link: "/ru/" },
+            { text: "Enjoy App", link: "https://enjoy.bot", target: "_blank" },
+          ],
+          sidebar: {
+            "/ru/": [
+              {
+                text: "Коротко о главном",
+                collapsed: false,
+                link: "/ru/intro",
+                items: [
+                  { text: "1. Нужно ли тренировать мозг?", link: "/ru/why" },
+                  { text: "2. Что тренирует мозг лучше всего?", link: "/ru/what" },
+                ],
+              },
+            ],
+          },
+          outline: { label: "На этой странице" },
+          docFooter: { prev: "Назад", next: "Дальше" },
+          lastUpdated: { text: "Обновлено" },
+          returnToTopLabel: "Наверх",
+          sidebarMenuLabel: "Меню",
+          darkModeSwitchLabel: "Тема",
+          langMenuLabel: "Язык",
+        },
+      },
+    },
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
