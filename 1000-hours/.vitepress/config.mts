@@ -146,6 +146,18 @@ export default withMermaid(
                       },
                     ],
                   },
+                  {
+                    text: "4. Живая речь",
+                    collapsed: true,
+                    link: "/ru/sounds-of-american-english/4-natural-speech",
+                    items: [
+                      { text: "4.1. Слоги", link: "/ru/sounds-of-american-english/4.1-syllables" },
+                      { text: "4.2. Слова", link: "/ru/sounds-of-american-english/4.2-words" },
+                      { text: "4.3. Смысловые группы", link: "/ru/sounds-of-american-english/4.3-grouping" },
+                      { text: "4.4. Слитное чтение", link: "/ru/sounds-of-american-english/4.4-linking" },
+                      { text: "4.5. Фразы", link: "/ru/sounds-of-american-english/4.5-sentences" },
+                    ],
+                  },
                 ],
               },
             ],
