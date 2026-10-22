@@ -56,6 +56,27 @@ export default withMermaid(
                   { text: "2. Что тренирует мозг лучше всего?", link: "/ru/what" },
                 ],
               },
+              {
+                text: "Тренировочные задания",
+                collapsed: false,
+                items: [
+                  { text: "1. Запуск", link: "/ru/training-tasks/kick-off" },
+                  { text: "2. Метод тренировки", link: "/ru/training-tasks/procedures" },
+                  {
+                    text: "3. Искусственный интеллект",
+                    collapsed: false,
+                    link: "/ru/training-tasks/ai",
+                    items: [
+                      { text: "3.1. Основа владения языком", link: "/ru/training-tasks/language" },
+                      { text: "3.2. Трудности взрослых", link: "/ru/training-tasks/predicaments" },
+                      { text: "3.3. Помощь ИИ", link: "/ru/training-tasks/revolution" },
+                      { text: "3.4. Задача вовсе не высокая", link: "/ru/training-tasks/ground" },
+                      { text: "3.5. Поразительный результат", link: "/ru/training-tasks/wonder" },
+                    ],
+                  },
+                  { text: "4. Неожиданное", link: "/ru/training-tasks/surprise" },
+                ],
+              },
             ],
           },
           outline: { label: "На этой странице" },

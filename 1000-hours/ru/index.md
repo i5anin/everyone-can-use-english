@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: Коротко о главном
       link: /ru/intro
+    - theme: brand
+      text: Тренировочные задания
+      link: /ru/training-tasks/kick-off
     - theme: alt
       text: Enjoy App
       link: https://enjoy.bot
