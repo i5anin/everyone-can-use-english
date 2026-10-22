@@ -77,6 +77,31 @@ export default withMermaid(
                   { text: "4. Неожиданное", link: "/ru/training-tasks/surprise" },
                 ],
               },
+              {
+                text: "Постановка произношения",
+                link: "/ru/sounds-of-american-english/0-intro",
+                collapsed: false,
+                items: [
+                  {
+                    text: "1. Основы",
+                    link: "/ru/sounds-of-american-english/1-basics",
+                    items: [
+                      {
+                        text: "1.1. Звуки и транскрипция",
+                        link: "/ru/sounds-of-american-english/1.1-phonemes",
+                      },
+                      {
+                        text: "1.2. Английский алфавит",
+                        link: "/ru/sounds-of-american-english/1.2-alphabets",
+                      },
+                    ],
+                  },
+                  {
+                    text: "2. Органы речи",
+                    link: "/ru/sounds-of-american-english/2-articulators",
+                  },
+                ],
+              },
             ],
           },
           outline: { label: "На этой странице" },
