@@ -176,6 +176,33 @@ export default withMermaid(
                       { text: "6.4. Частые корни и аффиксы", link: "/ru/sounds-of-american-english/6.4-parts-of-words" },
                     ],
                   },
+                  {
+                    text: "7. Что дальше",
+                    link: "/ru/sounds-of-american-english/7-whats-next",
+                  },
+                  {
+                    text: "8. Приложения",
+                    collapsed: true,
+                    link: "/ru/sounds-of-american-english/8-appendix",
+                    items: [
+                      {
+                        text: "8.1. Ввод знаков транскрипции",
+                        link: "/ru/sounds-of-american-english/8.1-inputting-phonemes-and-symbols",
+                      },
+                      {
+                        text: "8.2. Как получить транскрипцию CEPD",
+                        link: "/ru/sounds-of-american-english/8.2-cepd-phonetics-and-sound",
+                      },
+                      {
+                        text: "8.3. Упражнения с транскрипцией",
+                        link: "/ru/sounds-of-american-english/8.3-phoneme-exercises",
+                      },
+                      {
+                        text: "8.4. Создание ежедневных упражнений",
+                        link: "/ru/sounds-of-american-english/8.4-daily-speech-exercises",
+                      },
+                    ],
+                  },
                 ],
               },
             ],
