@@ -158,6 +158,24 @@ export default withMermaid(
                       { text: "4.5. Фразы", link: "/ru/sounds-of-american-english/4.5-sentences" },
                     ],
                   },
+                  {
+                    text: "5. Сверх основ",
+                    link: "/ru/sounds-of-american-english/5-above-ground",
+                  },
+                  {
+                    text: "6. Словарный запас",
+                    collapsed: true,
+                    link: "/ru/sounds-of-american-english/6-vocabulary",
+                    items: [
+                      { text: "6.1. Как запоминать слова", link: "/ru/sounds-of-american-english/6.1-effectiveness" },
+                      {
+                        text: "6.2. Написания с несколькими чтениями",
+                        link: "/ru/sounds-of-american-english/6.2-polyphonic-spellings",
+                      },
+                      { text: "6.3. Частые сложные слова", link: "/ru/sounds-of-american-english/6.3-compound-words" },
+                      { text: "6.4. Частые корни и аффиксы", link: "/ru/sounds-of-american-english/6.4-parts-of-words" },
+                    ],
+                  },
                 ],
               },
             ],
