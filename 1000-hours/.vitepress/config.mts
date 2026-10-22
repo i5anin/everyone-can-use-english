@@ -100,6 +100,27 @@ export default withMermaid(
                     text: "2. Органы речи",
                     link: "/ru/sounds-of-american-english/2-articulators",
                   },
+                  {
+                    text: "3. Звуки подробно",
+                    collapsed: true,
+                    link: "/ru/sounds-of-american-english/3-details",
+                    items: [
+                      {
+                        text: "3.1. Гласные",
+                        collapsed: true,
+                        link: "/ru/sounds-of-american-english/3.1-vowels",
+                        items: [
+                          { text: "3.1.1. ə/ɚ/ɝː", link: "/ru/sounds-of-american-english/3.1.1-ə" },
+                          { text: "3.1.2. ʌ/ɑː/ɑːr", link: "/ru/sounds-of-american-english/3.1.2-ɑ" },
+                          { text: "3.1.3. ɪ/i/iː/ɪr", link: "/ru/sounds-of-american-english/3.1.3-i" },
+                          { text: "3.1.4. ʊ/u/uː/ʊr", link: "/ru/sounds-of-american-english/3.1.4-u" },
+                          { text: "3.1.5. e/æ/er", link: "/ru/sounds-of-american-english/3.1.5-e" },
+                          { text: "3.1.6. ɒ/ɑː/ɔː/ɔːr", link: "/ru/sounds-of-american-english/3.1.6-ɔ" },
+                          { text: "3.1.7. aɪ... oʊ", link: "/ru/sounds-of-american-english/3.1.7-aɪ" },
+                        ],
+                      },
+                    ],
+                  },
                 ],
               },
             ],
